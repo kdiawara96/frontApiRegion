@@ -1,0 +1,7 @@
+{
+  "name": "frontApi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
