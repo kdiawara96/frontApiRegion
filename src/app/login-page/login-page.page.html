@@ -1,0 +1,72 @@
+<ion-content>
+
+
+  <section class="forms-section">
+       
+    <h1 class="section-title">Explorez le monde</h1>
+    <img src="../../assets/images/logo.png" height="75" width="75">
+    <div class="forms">
+        <!-- Div for connexion -->
+      <div class="form-wrapper is-active">
+        <button type="button" class="switcher switcher-login" onclick="test()">
+            Connexion
+          <span class="underline"></span>
+        </button>
+        <form class="form form-login">
+          <fieldset>
+            <legend>
+                Veuillez saisir votre email et votre mot de passe pour vous connecter.</legend>
+            <div class="input-block">
+              <label for="login-email">E-mail</label>
+              <input id="login-email" type="email" required>
+            </div>
+            <div class="input-block">
+              <label for="login-password">Mot de passe</label>
+              <input id="login-password" type="password" required>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn-login">Connexion</button>
+        </form>
+      </div>
+
+      <!--end div connexion  -->
+
+
+      <!-- Start Sign Up -->
+      <div class="form-wrapper">    
+        <button type="button" class="switcher switcher-signup" onclick="test()">
+        S'inscrire
+          <span class="underline"></span>
+        </button>
+        <form class="form form-signup">
+          <fieldset>
+            <legend>Veuillez saisir votre e-mail, votre mot de passe et votre
+                confirmation de mot de passe pour vous inscrire</legend>
+            <div class="input-block">
+              <label for="signup-email">E-mail</label>
+              <input id="signup-email" type="email" required>
+            </div>
+            <div class="input-block">
+              <label for="signup-password">Mot de passe</label>
+              <input id="signup-password" type="password" required>
+            </div>
+            <div class="input-block">
+              <label for="signup-password-confirm">Confirmé votre mot de passe</label>
+              <input id="signup-password-confirm" type="password" required>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn-signup">Continuez</button>
+        </form>
+      </div>
+      <!-- end sign up -->
+    </div>
+    <script src="st.js" type="text/script"></script>
+  </section>
+
+
+
+
+
+</ion-content>
+
+

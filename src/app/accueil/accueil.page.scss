@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+ion-header{
+    box-shadow: noen !important;
+}
+
+@media(min-width:991px){
+    
+ion-header{
+    display: none !important;
+}
+
+}
+
+.gauche{
+    background-color:#DAE8DA; 
+    border-radius: 15px;
+    height: 100%;
+}
+
+.bonjour{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 10px;
+}
+div input{
+    border: none;
+    outline: none;
+}
+
+
+.box_input{
+    margin-top: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px; 
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 26%;
+}
+
+#box1{
+    margin-top: 5px;
+}
+
+.box_input i{
+    color: #777;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#line1{
+    padding: 0px 0px
+     0px 13px;
+
+}
+
+.bienvenu{
+    margin-left: 2%;
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.card-title{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+color: white; 
+font-Weight:600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+}
+
+.card-text{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+color: white; 
+font-Weight:400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+}
+#card_t{
+    font-size: 12px; 
+}
+.destination{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: black; 
+    font-Weight:700;
+    font-size: 20px;
+    
+}
+
+/* -----------------------Profil validé------------------------------ */
+
+:root {
+    --fir-font-article: "adobe-garamond-pro", "Times New Roman", Times;
+    --fir-font-header: "foco", Helvetica;
+    --fir-blue-twitter-alpha: rgba(85,172,238, 0.6);
+    --fir-color-grey: rgba(0,0,0, 0.40);
+  }
+  
+  /* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  } */
+  
+  .fir-clickcircle {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  .fir-image-figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .fir-image-figure .caption, .fir-image-figure figcaption {
+    padding-left: 15px;
+  }
+  
+  html.wf-active .fir-image-figure .fig-author-figure-title {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .fir-image-figure .fig-author-figure-title {
+    color: var(--fir-color-grey);
+    /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    margin-top: 2px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+  }
+  
+  .fir-imageover {
+    position: relative;
+    display: flex;
+  }
+  
+
+  
+  .fir-imageover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: fadeInFadeOut 2s infinite;
+  }
+  
+  @keyframes fadeInFadeOut {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+
+
+  /* --------------------------------- */
+  .parent {
+    position: relative;
+    width: 200px;
+    height: 210px;
+    margin: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   
+}
+
+.child1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* opacity: 0.7; */
+    /* background: red; */
+    border-radius: 25px;
+}
+
+.child2 {
+    z-index: 1;
+    height: 100%;
+    margin: 0px;
+    background: green;
+    
+}
+.imgTiker{
+    border-radius:25px 25px 0px 0px;
+}
+.imagedetaille{
+    border-radius: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
+}
+.btn.bttn{
+    width: 100%;
+    margin-top: 5%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
+}
+.row.detailNom{
+    margin: 5% 0% 2% 1%;
+   
+}
+i.icon{
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    margin-right: 2px;
+}
+
+.row.detailLangue{
+    margin: 3% 0% 5% 0%;
+}
+span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #7D7D7D;
+    margin-left: 5%;
+}
+.imageCommentaire{
+    margin-bottom: 5%;
+}
+
+div .droite{
+    background-color:#DAE8DA;
+     border-radius: 10px;
+}
+.row.tickerRegion{
+
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0% 2% 4% 2%;
+    display: flex;
+    justify-content: start;
+}
+
+div.profilDiv{
+margin-top: 3%;
+margin-bottom: 0%;
+}
+div.filtre{
+    margin-left: 2%;
+    margin-bottom: 3%;
+
+}
+div.nmMali{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    margin-top: 8px;
+    font-weight: 700;
+    color: #404040;
+    font-size: 18px;
+}
+.fig-author-figure-title.nom{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+.filtre1{
+    border-radius: 7px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border: 1px solid #7D7D7D;
+    width: 80%;
+    padding: 10px 5px 10px 5px;
+    font-size: 18px;
+    
+    line-height: 14px;
+    font-weight: 400;
+
+/* Text/Black */
+
+color: #404040;
+}
+.pagenation{
+    border: none;
+    font-size: 30px;
+    background: none !important;
+}
+
+
+div.page{
+    margin-left: 10%;
+}
+div.spage{
+    margin-top: 12px !important;
+}
+.commentaireBloc{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 90%;
+    margin: 0% 5% 0% 5%;
+}
+.fig-author-figure-title.nomPersoCom{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pagenationCommentaire{
+  
+        border: none;
+        font-size: 30px;
+        background: none !important;
+  
+}
+div.pageCommentaire{
+
+    margin-left: 10%;
+
+}
+textarea{
+  border-radius: 10px !important;  
+  border: 1px solid black !important;
+}

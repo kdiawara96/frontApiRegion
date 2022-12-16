@@ -1,3 +1,10 @@
+   <!-- lier les routes (afficher les pages) -->
+<ion-router-outlet id="main"></ion-router-outlet>
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <ion-split-pane contentId="main" when="m">
+    <!-- lier les routes (afficher les pages) -->
+    <ion-router-outlet id="main"></ion-router-outlet>
+  </ion-split-pane>
+  
 </ion-app>
