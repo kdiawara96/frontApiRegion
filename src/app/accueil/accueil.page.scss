@@ -43,7 +43,7 @@ div input{
     border-radius: 20px; 
     padding: 20px;
     margin-bottom: 10px;
-    margin-left: 26%;
+    margin-left: 17%;
 }
 
 #box1{
@@ -69,6 +69,16 @@ div input{
     font-style: normal;
 }
 
+// les petits ticker sur les trois card
+.catt{
+    border-radius: 0px 0px 25px 25px;
+    height: 80px; margin-top: 79%;
+    background: rgba(0, 0, 0, 0.5);
+    
+   }
+
+//    --------------------------------------------------
+
 .card-title{
 font-family: 'Lato', sans-serif;
 font-style: normal;
@@ -92,8 +102,13 @@ line-height: 22px;
 
 letter-spacing: 0.01em;
 }
+
+.card-text i{
+    margin-right: 8px;
+}
 #card_t{
     font-size: 12px; 
+    margin-bottom: 5px !important;
 }
 .destination{
     margin-top: 5%;
@@ -242,7 +257,8 @@ span{
     margin-left: 5%;
 }
 .imageCommentaire{
-    margin-bottom: 5%;
+    // margin-bottom: 13%;
+    margin:6% 0% 13% 0%;
 }
 
 div .droite{
@@ -312,6 +328,9 @@ div.page{
 div.spage{
     margin-top: 12px !important;
 }
+#page{
+    margin-top: 10px !important;
+}
 .commentaireBloc{
     background-color: white;
     border-radius: 20px;
@@ -335,6 +354,7 @@ div.spage{
 div.pageCommentaire{
 
     margin-left: 10%;
+    margin-top: 20px !important;
 
 }
 textarea{

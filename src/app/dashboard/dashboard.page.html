@@ -38,19 +38,25 @@
   
         <ion-list>
   
-          <ion-item>
-            <ion-icon name="home" slot="start"></ion-icon>
+          <ion-item class="home" [routerLinkActiveOptions]={exact:true} routerLink="/dashboard/accueil" routerLinkActive='active-item'>
+            <!-- <ion-icon name="home" slot="start"></ion-icon> -->
+            <!-- <i class="bi bi-house-door-fill"></i> -->
+            <i class="fa-solid fa-house-user"></i>
             <ion-label>Accueil</ion-label>
           </ion-item>
   
-          <ion-item>
-            <ion-icon name="home" slot="start"></ion-icon>
+          <ion-item class="dash" routerLink="/dashboard/dashboard" routerLinkActive='active-item'>
+            <!-- <ion-icon name="home" slot="start"></ion-icon> -->
+            <!-- <i class="bi bi-trello"></i> -->
+            <i class="fa-solid fa-table-columns"></i>
             <ion-label>Dashboard</ion-label>
           </ion-item>
   
-          <ion-item>
-            <ion-icon name="home" slot="start"></ion-icon>
-            <ion-label>Déconnexion</ion-label>
+          <ion-item class="espaceDeconn">
+            <!-- <ion-icon name="home" slot="start"></ion-icon> -->
+            <!-- <i class="bi bi-box-arrow-right"></i> -->
+            <i class="fa-solid fa-right-from-bracket"></i>
+                  <ion-label>Déconnexion</ion-label>
           </ion-item>
   
         </ion-list>
